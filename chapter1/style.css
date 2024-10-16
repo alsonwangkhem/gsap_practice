@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    overflow: hidden
+}
+
+#box1 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(206, 8, 8);
+}
+#box2 {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(206, 8, 8);
+}
+#headings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: white;
+}
