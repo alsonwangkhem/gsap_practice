@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+#part2 {
+    display: flex;
+    gap: 50px;
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%; /* centers the topleft corner of the element*/
+    left: 50%;
+    transform: translate(-50%, -50%); /* centers the element by shifting again */
+    white-space: nowrap;
+}
+
